@@ -1,0 +1,22 @@
+nav {
+  background-color: greenyellow;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.brand {
+  padding: 1rem;
+  border: black 1px solid;
+}
+.numCounter {
+  padding: 1rem;
+  border: black 1px solid;
+}
+main {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}

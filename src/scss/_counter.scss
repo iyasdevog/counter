@@ -1,0 +1,39 @@
+$shadow-red: 1px 0.5rem 0.5rem rgba(rgb(240, 13, 13), 0.5);
+$shadow-black: 1px 0.5rem 0.5rem rgba(rgb(10, 1, 1), 0.5);
+.color {
+  width: 3rem;
+  padding: 0.9rem;
+  text-align: center;
+  font-weight: bold;
+  &-yellow {
+    background-color: yellow;
+    color: #000;
+  }
+  &-blue {
+    background-color: blue;
+    color: #fff;
+  }
+}
+.container {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.increment {
+  background-color: black;
+  color: #fff;
+  padding: 1rem;
+  box-shadow: $shadow-black;
+}
+.reset {
+  background-color: rgb(230, 138, 18);
+  color: #fff;
+  padding: 1rem;
+}
+.delete {
+  background-color: red;
+  color: #fff;
+  padding: 1rem;
+  border: red 1px solid;
+  box-shadow: $shadow-red;
+}
